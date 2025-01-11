@@ -135,10 +135,9 @@ h4 {
 .delay-200 { animation-delay: 0.2s; }
 .delay-400 { animation-delay: 0.4s; }
 
-.card:hover {
+.card {
   opacity: 0; 
   animation: fadeInUp 2s forwards; 
-  rotate: 3deg;
 }
 
 @keyframes fadeInUp {
